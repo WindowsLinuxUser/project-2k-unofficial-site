@@ -1,0 +1,42 @@
+h1 {
+    color: white;
+    font-family: W95FA;
+    font-smooth: never;
+    -webkit-font-smoothing : none;
+}
+
+.welcometext {
+    font-family: W95FA;
+    color: white;
+    font-smooth: never;
+    -webkit-font-smoothing : none;
+}
+
+body {
+    background-image: url(./Win2K.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'W95FA';
+    src: url('w95fa.woff2') format('woff2'),
+    url('w95fa.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  p {
+    font-family: W95FA;
+    font-smooth: never;
+    -webkit-font-smoothing : none;
+    color: white
+  }
+
+  html {
+    font-family: W95FA;
+  }
+
+  a {
+    color: blue;
+  }
